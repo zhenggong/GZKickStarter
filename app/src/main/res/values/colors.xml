@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Theme colors -->
+	<color name="primary">@color/light_gray</color>
+	<color name="primary_dark">@color/black</color>
+	<color name="accent">@color/green</color>
+	<color name="text_primary">@color/black</color>
+	<color name="text_secondary">@color/dark_gray</color>
+	<color name="window_background">@color/white</color>
+
+	<!-- Kickstarter colors -->
+	<color name="black">#000000</color>
+	<color name="blue">#00a0ff</color>
+	<color name="dark_blue">#081245</color>
+	<color name="dark_gray">#828587</color>
+	<color name="green">#2bde73</color>
+	<color name="light_blue">#e8f6ff</color>
+	<color name="light_gray">#f7fafa</color>
+	<color name="light_green">#def7e0</color>
+	<color name="gray">#d9d9de</color>
+	<color name="gray_black">#ff464646</color>
+	<color name="off_white">#fafafa</color>
+	<color name="orange">#f7aa1a</color>
+	<color name="mint">#ffe3fdf9</color>
+	<color name="pink">#ffecf0</color>
+	<color name="royal_blue">#ff2752ff</color>
+	<color name="text_dark">#ff0f2105</color>
+	<color name="text_light">#ffffffff</color>
+	<color name="transparent">@android:color/transparent</color>
+	<color name="white">@android:color/white</color>
+	<color name="yellow">#ffffc9</color>
+	<color name="medium_gray">#ebebee</color>
+
+	<!-- Category colors -->
+	<color name="category_art">#ffffbdab</color>
+	<color name="category_comics">#fffffb78</color>
+	<color name="category_crafts">#ffff81ac</color>
+	<color name="category_dance">#ffa695f9</color>
+	<color name="category_design">#ff2752ff</color>
+	<color name="category_fashion">#ffff9fd6</color>
+	<color name="category_film">#ffff596e</color>
+	<color name="category_food">#ffff3642</color>
+	<color name="category_games">#ff00c9ab</color>
+	<color name="category_journalism">#ff12bcea</color>
+	<color name="category_music">#ffa5ffd3</color>
+	<color name="category_photography">#ff00e3e5</color>
+	<color name="category_publishing">#ffe2dcd0</color>
+	<color name="category_technology">#ff6396fc</color>
+	<color name="category_theater">#ffff7d5f</color>
+	<color name="category_secondary_art">#fff7aa94</color>
+	<color name="category_secondary_comics">#ffffe54f</color>
+	<color name="category_secondary_crafts">#ffe35f8c</color>
+	<color name="category_secondary_dance">#ff6556ac</color>
+	<color name="category_secondary_design">#ff1935a6</color>
+	<color name="category_secondary_fashion">#ff171717</color>
+	<color name="category_secondary_film">#ffcf3c4e</color>
+	<color name="category_secondary_food">#ffd12c36</color>
+	<color name="category_secondary_games">#ff00a68d</color>
+	<color name="category_secondary_journalism">#ff10a8d0</color>
+	<color name="category_secondary_music">#ff5ee5a3</color>
+	<color name="category_secondary_photography">#ff00d4d6</color>
+	<color name="category_secondary_publishing">#ffd1ccc0</color>
+	<color name="category_secondary_technology">#ff326bdb</color>
+	<color name="category_secondary_theater">#ffe8514b</color>
+
+	<!-- Colors with hex opacity:
+	  http://stackoverflow.com/questions/5445085/understanding-colors-in-android-6-characters/11019879#11019879 -->
+	<color name="accent_alpha_20">@color/blue_alpha_20</color>
+	<color name="black_alpha_5">#0d000000</color>
+	<color name="black_alpha_10">#1a000000</color>
+	<color name="black_alpha_30">#4D000000</color>
+	<color name="black_alpha_50">#88000000</color>
+	<color name="blue_alpha_20">#3300a0ff</color>
+	<color name="blue_darken_10">#0087E6</color>
+	<color name="gray_alpha_50">#80d9d9de</color>
+	<color name="gray_darken_10">#C0C0C5</color>
+	<color name="green_alpha_20">#332bde73</color>
+	<color name="green_alpha_50">#802bde73</color>
+	<color name="green_darken_10">#12C55A</color>
+	<color name="green_darken_20">#00AB40</color>
+	<color name="green_lighten_10">#45F88D</color>
+	<color name="white_alpha_60">#99ffffff</color>
+
+	<!-- Click colors -->
+	<color name="dark_gray_click">#1f000000</color>
+	<color name="light_gray_click">#42ffffff</color>
+	<color name="ripple_dark">#33ffffff</color>
+	<color name="ripple_light">#1f000000</color>
+
+	<!-- Activity colors -->
+	<color name="activity_feed_background">#EAEAF0</color>
+
+	<!-- Debug colors -->
+	<color name="debug_background">#EE222222</color>
+
+	<!-- Discovery colors -->
+	<color name="dark_blue_gradient_start">#081245</color>
+	<color name="dark_blue_gradient_end">#062e6a</color>
+	<color name="discovery_primary">@color/dark_blue</color>
+	<color name="discovery_secondary">@color/discovery_status_bar</color>
+	<color name="discovery_background">@color/light_gray</color>
+	<color name="discovery_toolbar">@color/dark_blue</color>
+	<color name="discovery_status_bar">@color/black</color>
+	<color name="discovery_drawer_item_selected">#ffededed</color>
+	<color name="discovery_drawer_header">@color/light_gray</color>
+
+	<!-- Rewards colors -->
+	<color name="reward_orange">#edaa39</color>
+	<color name="reward_orange_dark">#493109</color>
+	<color name="reward_blue">#3936e0</color>
+
+	<!-- Third-party colors -->
+	<color name="facebook_blue">#3b5998</color>
+	<color name="twitter_blue">#00aced</color>
+</resources>

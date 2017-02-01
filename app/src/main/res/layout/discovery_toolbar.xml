@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<glossom.gzkikstarterandroid.DiscoveryToolbar
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	style="@style/Toolbar"
+	android:layout_height="wrap_content"
+	android:id="@+id/discovery_toolbar"
+	android:background="@color/discovery_toolbar"
+	android:elevation="0dp"
+	app:layout_scrollFlags="scroll|exitUntilCollapsed"
+	app:contentInsetLeft="0dp"
+	app:contentInsetStart="0dp"
+	tools:ignore="UnusedAttribute"
+    android:layout_width="match_parent"
+	tools:showIn="@layout/activity_discorvery">
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="@dimen/discovery_drawer_status_bar_height"
+			android:orientation="vertical"
+			android:id="@+id/discovery_status_bar"
+			android:background="@color/discovery_status_bar">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="?attr/actionBarSize"
+				android:baselineAligned="false"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+
+				<LinearLayout
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:focusable="true"
+					android:layout_weight="1"
+					android:orientation="horizontal"
+					android:gravity="center_vertical"
+					android:clipToPadding="false"
+					android:paddingEnd="@dimen/grid_2"
+					tools:ignore="RtlSymmetry">
+
+					<glossom.gzkikstarterandroid.IconButton
+						style="@style/ToolbarIconDarkBackground"
+						android:id="@+id/menu_button"
+						android:text="@string/menu_icon" />
+
+					<TextView
+						android:id="@+id/filter_text_view"
+						style="@style/Headline"
+						android:background="@drawable/button_selector"
+						android:ellipsize="end"
+						android:textColor="@color/white"
+						android:layout_width="fill_parent"
+						android:layout_height="match_parent"
+						android:maxLines="1"
+						android:paddingLeft="@dimen/grid_3_half"
+						android:paddingStart="@dimen/grid_3_half"
+						android:paddingRight="@dimen/grid_3_half"
+						android:paddingEnd="@dimen/grid_3_half"
+						android:gravity="center_vertical"
+						tools:text="Staff Picks" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:orientation="horizontal">
+
+					<glossom.gzkikstarterandroid.IconButton
+						style="@style/ToolbarIconDarkBackground"
+						android:id="@+id/activity_feed_button"
+						android:text="@string/flash_on_icon" />
+
+					<glossom.gzkikstarterandroid.IconButton
+						style="@style/ToolbarIconDarkBackground"
+						android:id="@+id/search_button"
+						android:text="@string/search_icon" />
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</glossom.gzkikstarterandroid.DiscoveryToolbar>
